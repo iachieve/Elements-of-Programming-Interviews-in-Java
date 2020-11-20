@@ -7,6 +7,7 @@ public class TwoSum {
   @EpiTest(testDataFile = "two_sum.tsv")
 
   public static boolean hasTwoSum(List<Integer> A, int t) {
+    // has Two Sum
     int i = 0, j = A.size() - 1;
     while (i <= j) {
       if (A.get(i) + A.get(j) == t) {
